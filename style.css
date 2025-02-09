@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main #top{
+    height: 7cm;
+    width: 100%;
+    background-color: white;
+}
+#main #top>h2{
+    font-size: 75px;
+    padding: 15px 15px;
+    letter-spacing: 1px;
+    line-height: 85px;
+    font-weight: 600;
+}
+#main #top .cityname{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+}
+#main #top .cityname h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+#main #top #top-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 40px;
+    position: fixed;
+    top: 1px;
+    right: 10px;
+}
+#main #top #top-right h3{
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 35px;
+    margin-left: 10px;
+}
+#main-img{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664106242909-41922802ba52?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#about{
+    width: 100%;
+    height: 35%;
+    padding: 30px 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#about #left{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+#about #left h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+#about #right{
+    width: 28%;
+    height: 100%;
+    border-left: solid 2px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#about #right h2{
+    padding: 10px 50px; 
+    font-size: 25px;
+    font-weight: 500;
+}
+#about #right #icons{
+    padding: 25px 50px;
+}
+#about #right #icons i{
+    padding: 5px 5px;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+#work{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    padding: 0px 35px;
+}
+#work #workr{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10px;
+    border-bottom: solid 2px black;
+    border-top: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+}
+#work #workr #workleft{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding: 7px 25px;
+    justify-content: space-between;
+    border-right: solid 2px black;
+}
+#work #workr #workleft h2{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#work #workr #workleft i{
+    font-size: 30px;
+    font-weight: 500;
+}
+#work #workr #workright{
+    width: 69%;
+    height: 100%;
+    display: flex;
+    padding: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#work #workr #workright #workrightt{
+    width: 100%;
+    height: 48%;
+    padding: 1px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#work #workr #workright #workrightt #workrighttl{
+    width: 49%;
+    height: 99%;
+    padding: 0px 20px;
+    border-left: solid 2px black;
+}
+#work #workr #workright #workrightt #workrighttr{
+    width: 50%;
+    height: 99%;
+}
+#work #workr #workright #workrightb{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 8px 5px;
+    border-top: solid 2px black;
+    justify-content: space-between;
+}
+#work #workr #workright #workrightb #workrightbr{
+    width: 49%;
+    height: 99%;
+    padding: 0px 20px;
+    border-left: solid 2px black;
+}
+#work #workr #workright #workrightb #workrightbl{
+    width: 50%;
+    height: 99%;
+}
+#work #workr #workright #workrightt #workrighttl h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 4px 5px;
+}
+#work #workr #workright #workrightt #workrighttl p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 8px;
+    padding-bottom: 3px;
+}
+#work #workr #workright #workrightt #workrighttr h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 4px 5px;
+}
+#work #workr #workright #workrightt #workrighttr p{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+}
+#work #workr #workright #workrightb #workrightbr h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 4px 5px;
+}
+#work #workr #workright #workrightb #workrightbr p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+}
+#work #workr #workright #workrightb #workrightbl h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 4px 5px;
+}
+#work #workr #workright #workrightb #workrightbl p{
+    font-size: 19px;
+    font-weight: 500;
+    padding: 2px 5px;
+    padding-bottom: 3px;
+}
